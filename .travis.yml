@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '4.2'
+- '4.1'
+- '4.0'
+- '5.0'
+- '5.1'
+deploy:
+  provider: npm
+  email: rhaynel2000@gmail.com
+  api_key:
+    secure: W49RYS8n4NNJvQV62vm1mjjSBEj8sEFuQt3Po+Z3jWFtTGJ21zcMlpJpJlNzQ+3l8Ot92TctOB/o6xV9SZBsN/PzhkDocsfNSe6Wr5paoRoLLHT06zwLE3QGSfA18vnzKUBTmiRi/iQTA/tHrsmY8WUALPTmcFkaDUC5t6obDuCXQ3e5akbbxd2LVeyrkSVVo1ktv6L3U+M/NPIbWS6S4itGXuQxIblN3Kfw0dHhm902NLxRBurV4y6XtGtrzTPtvbh7qEKHtex2czeorz0Q0MK7bXtztBTaLVMmFJw1e9Sv9iRrXT7PP5dA2fMhPC1TFok9nzVD3h6ZNstC/ouYganBCXKj+HVR2vqYbv6UNSRbaSnfJbVnLx5esqpThvt4SLliXczx90pnYYqvhCKu0qw6El1ENtr/R1aIpxHZL6dvPl6Qgovg8aeGEcet+vgOAiFFJrcul9PGoQ7TODDtwwHsV+kd3z9pSJjUBwxRb9UxuxM92otEophVFLhdRpiGCWPEveV0MvMtr30SsT8evJEKjIYIoUmvFWhnPJXsSNKtaf9BDoY1UhsUB9nt1/Lo/9ri8wfxpvX+cWdMI4jAkrEhNbjl0dcSDE91a1B83GDBOIbU2pU5u5vf8SduIfED6TQMPtgPDnQ1cR5L9puO8nGFH+gBrNqjOXjIbnA1OBQ=
+  on:
+    tags: false
+    repo: rhaynel-parra/generator-beyond

@@ -1,0 +1,38 @@
+{
+  "name": "yaol",
+  "version": "0.0.1",
+  "description": "Yet another output log",
+  "main": "./lib",
+  "homepage": "https://rhaynel-parra.github.io/yaol/",
+  "scripts": {
+    "test": "node_modules/.bin/grunt ci"
+  },
+  "repository": "rhaynel-parra/yaol",
+  "keywords": ["console","output","terminal","cli","command-line"],
+  "author": {
+    "name": "Rhaynel Parra Aguiar",
+    "email": "rhaynel2000@gmail.com",
+    "url": "https://hablemosdetecnologia.com.ve"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhaynel-parra/yaol/issues"
+  },
+  "dependencies": {
+    "chalk": ">=1.1.1"
+  },
+  "devDependencies": {
+    "should": "^8.0.1",
+    "mocha": "^2.3.4",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1",
+    "grunt-mocha-cli": "~1.1.0",
+    "grunt-complexity": "~0.1.3",
+    "grunt-cli": "~0.1.9"
+  },
+  "engines": {
+    "node": ">=4.2.3",
+    "npm": ">=3.5.1"
+  }
+}
