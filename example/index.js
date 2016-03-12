@@ -1,7 +1,7 @@
-var output = require('../lib/index');
+var yaol = require('../');
 
-var messenger = 'example';
+var logger = new yaol('Yaol says');
 
-output.error(messenger,'this is an error message');
-output.warning(messenger,'this is an warning message');
-output.info(messenger,'this is an info message');
+logger.err('this is an error message');
+logger.warn('this is an warning message');
+logger.info('this is an info message');
