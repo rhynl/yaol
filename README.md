@@ -16,7 +16,7 @@ $ npm install yaol
 
 ``` js
 var yaol = require('yaol');
-var logger = yaol('yaol says');
+var logger = new yaol('yaol says');
 logger.info('information');
 logger.warn('warning');
 logger.err('Error');
