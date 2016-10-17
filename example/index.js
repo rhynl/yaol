@@ -1,7 +1,9 @@
-var yaol = require('../');
+const Yaol = require('../');
 
-var logger = new yaol('Yaol says');
+const logger = new Yaol('logger 1');
 
-logger.err('this is an error message');
-logger.warn('this is an warning message');
-logger.info('this is an info message');
+logger
+.err('error')
+.changeMessenger('logger 2')
+.info('info')
+.warn('warning');
