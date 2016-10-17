@@ -1,4 +1,1 @@
-(function() {
-  'use strict';
-  module.exports = require('./lib/yaol');
-})();
+module.exports = require('./lib/yaol');
