@@ -1,13 +1,13 @@
 {
   "name": "yaol",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Yet another output logger",
   "main": "index.js",
-  "homepage": "https://rhaynel-parra.github.io/yaol/",
+  "homepage": "https://rhynl.io/yaol/",
   "scripts": {
     "test": "node_modules/.bin/grunt ci"
   },
-  "repository": "rhaynel-parra/yaol",
+  "repository": "rhynl/yaol",
   "keywords": [
     "console",
     "output",
@@ -17,12 +17,12 @@
   ],
   "author": {
     "name": "Rhaynel Parra Aguiar",
-    "email": "rhaynel2000@gmail.com",
-    "url": "https://hablemosdetecnologia.com.ve"
+    "email": "me@rhynl.io",
+    "url": "https://rhynl.io"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rhaynel-parra/yaol/issues"
+    "url": "https://github.com/rhynl/yaol/issues"
   },
   "dependencies": {
     "chalk": ">=1.1.1"

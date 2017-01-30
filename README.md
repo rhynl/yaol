@@ -2,7 +2,7 @@
 
 Yet another output log
 
-[![build status](https://secure.travis-ci.org/rhaynel-parra/yaol.png)](http://travis-ci.org/rhaynel-parra/yaol)
+[![build status](https://secure.travis-ci.org/rhynl/yaol.png)](http://travis-ci.org/rhynl/yaol)
 
 ## Installation
 
@@ -30,3 +30,6 @@ logger.info(obj, {json: true});
 ```
 
 More options commig soon.
+
+## License
+2017 [MIT](https://rhynl.mit-license.org)
