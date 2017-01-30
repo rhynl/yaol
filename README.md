@@ -14,10 +14,19 @@ $ npm install yaol
 
 ## Example Usage
 
-``` js
-var yaol = require('yaol');
-var logger = new yaol('yaol says');
+```js
+const yaol = require('yaol');
+const logger = new yaol('yaol says');
 logger.info('information');
 logger.warn('warning');
 logger.err('Error');
 ```
+
+## Options
+
+```js
+const Obj = { 'name': 'foo', type: 'baz' };
+logger.info(obj, {json: true});
+```
+
+More options commig soon.

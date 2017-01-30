@@ -1,6 +1,6 @@
 {
   "name": "yaol",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Yet another output logger",
   "main": "index.js",
   "homepage": "https://rhaynel-parra.github.io/yaol/",
