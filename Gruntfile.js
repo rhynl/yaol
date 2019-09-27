@@ -1,5 +1,5 @@
-'use strict';
-module.exports = function (grunt) {
+
+module.exports = (grunt) => {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     complexity: {
@@ -7,38 +7,38 @@ module.exports = function (grunt) {
         src: ['app/**/*.js'],
         options: {
           errorsOnly: false,
-          cyclometric: 6,       // default is 3
-          halstead: 16,         // default is 8
-          maintainability: 100  // default is 100
-        }
-      }
+          cyclometric: 6, // default is 3
+          halstead: 16, // default is 8
+          maintainability: 100, // default is 100
+        },
+      },
     },
     jshint: {
       all: [
         'Gruntfile.js',
         'app/**/*.js',
-        'test/**/*.js'
+        'test/**/*.js',
       ],
       options: {
-        jshintrc: '.jshintrc'
-      }
+        jshintrc: '.jshintrc',
+      },
     },
     mochacli: {
       all: ['test/**/*.js'],
       options: {
         reporter: 'spec',
-        ui: 'tdd'
-      }
+        ui: 'tdd',
+      },
     },
     watch: {
       js: {
         files: ['**/*.js', '!node_modules/**/*.js'],
         tasks: ['default'],
         options: {
-          nospawn: true
-        }
-      }
-    }
+          nospawn: true,
+        },
+      },
+    },
   });
 
   grunt.loadNpmTasks('grunt-complexity');
